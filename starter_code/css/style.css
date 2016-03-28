@@ -18,6 +18,18 @@ Developer @GA in NYC
 }
 
 /* Clear fix hack */
+
+.relaxr {
+  font-size: 24px;
+  font-style: extra bold;
+  font-family: open sans-serif;
+  border: 1px solid black;
+  background: rgba(255,255,255,.6);
+  padding: 20px;
+  height: 150px;
+  margin: 10px;
+}
+
 .clearfix:after {
      content: ".";
      display: block;
@@ -52,15 +64,13 @@ body {
      font-family: Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
       background-size: cover;
-}
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 /* Center the container */
-#container {
+.container {
   width: 100%;
   margin: auto;
   height: 500px;
